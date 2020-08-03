@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+.img1 {
+    background-image: url("../images/one.jpg");
+    height: 100%;
+
+}
+
+.text1 , .text4 {
+    padding: 25%;
+    text-align: center;
+}
+
+.text2, .text3 {
+    padding: 10%;
+    text-align: center;
+}
+
+.text1 h2 {
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 10px;
+    text-transform: uppercase;
+    line-height: 50px;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    color: white;
+    background-color: rgb(73, 72, 72);
+}
+
+.para1 {
+    background-color: rgb(219, 215, 215);
+    text-align: center;
+    padding: 100px 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+}
+
+.para1 h3 {
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+.img2 {
+    background-image: url("../images/two.jpg");
+    height: 50%;
+}
+
+.text2 h2 {
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: white;
+    background: transparent;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.para2, .para3 {
+    background-color: rgb(22, 28, 39);
+    text-align: center;
+    padding: 100px 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+
+.para2 h3 , .para3 h3{
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+.img3 {
+    background-image: url("../images/three.jpg");
+    height: 50%;
+    
+}
+
+.img4 {
+    background-image: url("../images/four.jpg");
+    height: 100%;
+    
+}
+
+.img1, .img2, .img3, .img4 {
+    position: relative;    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.7;
+}
+
+.text3 h2 {
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.text4 h2 {
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 10px;
+    text-transform: uppercase;
+    line-height: 50px;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
